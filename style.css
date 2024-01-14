@@ -1,0 +1,20 @@
+
+
+.jumbotron{
+    padding-top: 5rem;
+    background-color:#FFE3E3;
+
+}
+
+#projects{
+    background-color: #FFE3E3;
+}
+
+.gelombang{
+    position: relative; 
+    bottom: -10px;
+}
+
+section{
+    padding-top: 5rem;
+}
