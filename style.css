@@ -44,7 +44,7 @@ section {
 }
 
 .peripheral-box::after {
-  content: "COMPUTER";
+  content: "PERIPHERALS";
   position: absolute;
   color: #fff;
   font-size: 4em;
