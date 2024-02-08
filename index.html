@@ -125,6 +125,44 @@
 </section>
 <!-- Akhir projects -->
 
+<!-- Awal Peripheral  -->
+    <section id="my-peripheral">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Peripherals</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-3 Peripheral-cover">
+                    <div class="peripheral-box">
+                        <h4 class="peripheral-name">HP 14em0014AU</h4>
+                        <img src="img/Peripheral/HP 14em0014AU.png" alt="HP 14em0014AU" class="peripheral-img">
+                        <a href="#" class="btn btn-light peripheral-detail-button">Show Details</a>
+                    </div>
+                </div> 
+                <div class="col-md-6 col-lg-4 mb-3 Peripheral-cover">
+                    <div class="peripheral-box">
+                        <h4 class="peripheral-name">HP 14em0014AU</h4>
+                        <img src="img/Peripheral/Logitech MK220.png" alt="Logitech MK220" class="peripheral-img">
+                        <a href="#" class="btn btn-light peripheral-detail-button">Show Details</a>
+                    </div>
+                </div> 
+                <div class="col-md-6 col-lg-4 mb-3 Peripheral-cover">
+                    <div class="peripheral-box">
+                        <h4 class="peripheral-name">HP 14em0014AU</h4>
+                        <img src="img/Peripheral/Soundcore DOT 3I.png" alt="Soundcore DOT 3I" class="peripheral-img">
+                        <a href="#" class="btn btn-light peripheral-detail-button">Show Details</a>
+                    </div>
+                </div> 
+        </div>
+
+    </section>
+
+
+
+<!-- Akhir Peripheral  -->
+
 <!-- Contact -->
 <section id="contact">
 
@@ -223,6 +261,15 @@
                 })
                 .catch(error => console.error('Error!', error.message))
         })
+    </script>
+    <!-- script Tilt  -->
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".peripheral-box"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+        });
     </script>
 </body>
 </html>
